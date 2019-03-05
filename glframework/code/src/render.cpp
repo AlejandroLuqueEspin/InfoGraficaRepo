@@ -149,7 +149,7 @@ void GLinit(int width, int height) {
 	/*Box::setupCube();
 	Axis::setupAxis();*/
 
-	bool res = loadOBJ("farola.obj", vertices, uvs, normals);
+	bool res = loadOBJ("Hollow.obj", vertices, uvs, normals);
 
 	MyLoadedModel::setupModel();
 
